@@ -14,11 +14,9 @@ public class App
 {
     public static void main( String[] args )
     {
-    	System.setProperty(  
-                 "webdriver.ie.driver",  
-                 "C:\\Program Files\\Internet Explorer\\IEDriverServer.exe");
-    	
-    	WebDriver driver = new InternetExplorerDriver();
+    	//System.setProperty("webdriver.ie.driver","C:\\Program Files\\Internet Explorer\\IEDriverServer.exe");
+    	System.setProperty("webdriver.firefox.bin", "C:/Program Files (x86)/Mozilla Firefox/firefox.exe");
+    	WebDriver driver = new FirefoxDriver();
     	driver.get("www.baidu.com");
     }
 }

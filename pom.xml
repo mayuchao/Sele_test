@@ -3,7 +3,10 @@
     <modelVersion>4.0.0</modelVersion>  
     <groupId>Selenium2Test</groupId>  
     <artifactId>Selenium2Test</artifactId>  
-    <version>1.0</version>  
+    <version>1.0</version>
+    <build>
+    	<defaultGoal>compile</defaultGoal>
+    </build>  
     <dependencies> 
         <dependency>
          <groupId>junit</groupId>
@@ -14,7 +17,7 @@
         <dependency>  
             <groupId>org.seleniumhq.selenium</groupId>  
             <artifactId>selenium-java</artifactId>  
-            <version>2.25.0</version>  
+            <version>2.30.0</version>  
         </dependency>  
         <dependency>  
             <groupId>com.opera</groupId>  
